@@ -1,0 +1,11 @@
+# mensajeria
+
+Aplicacion de Mensajeria Inicio 24/06/2016
+
+4 MODULOS
+  - RECOJO
+  - ENTREGA
+  - ASIGNACION
+  - REPORTES
+
+DESARROLLANDO CON FUNDATION Y JQUERY
