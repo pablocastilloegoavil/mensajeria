@@ -1,0 +1,38 @@
+                            
+/* TEAM */
+
+                            
+name: pablo                        
+Site:                         
+Twitter: tu nombre de usuario en Twitter.                          
+Location: Ciudad, Comunidad, País.
+                       
+                 
+                        [...]
+						
+
+							
+/* THANKS */
+
+							
+Name: No Thanks
+
+						
+                 
+                        [...]
+                        
+
+                            
+/* SITE */
+
+                            
+Last update: YYYY/MM/DD 
+
+                            
+Standards: HTML5, CSS3,..
+
+                            
+Components: Fundation, Jquery.
+
+                            
+Software: Atom.
