@@ -10,56 +10,84 @@
 
 </head>
 <body>
-  <header class="row text-center">
+  <header class="expanded row text-center">
     <h1>Lista de Recojo</h1>
   </header>
-  <div class="title-bar" data-responsive-toggle="example-menu" data-hide-for="medium">
-  <button class="menu-icon" type="button" data-toggle></button>
-  <div class="title-bar-title">Menu</div>
+
+  <!--  Seccion de Menu
+  -->
+<div class="off-canvas-wrapper sticky">
+  <div class="offcanvas-wrapper-inner"   data-off-canvas-wrapper>
+    <div class="off-canvas position-left" id="off-canvas" data-off-canvas>
+      <button class="close-button" type="button" data-close>
+        <span aria-hidden="true">&times;</span>
+      </button>
+      <ul class="vertical menu">
+        <li><a href="#">RECOJO</a></li>
+        <li><a href="#">ENTREGA</a></li>
+        <li><a href="#">REPORTES</a></li>
+      </ul>
+    <div class="off-canvas-content" data-off-canvas-content>
+    </div>
+
+    </div>
+    <div class="title-bar" data-sticky-container>
+      <button type="button" class="menu-icon" data-toggle="off-canvas"></button> MENU
+    </div>
+
+
+    <!--  Seccion de Datos
+    -->
+
+      <section class="row" data-tabs data-equalizer>
+        <section class="small-12 columns tabs" ><h2>Apellido y Nombre</h2></section>
+        <section class="small-3 columns tabs" data-equalizer-watch>
+        Lorem ipsum
+        </section>
+        <section class="small-9 columns tabs float-right tabs" data-equalizer-watch>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, veritatis labore atque eum similique nesciunt quam maxime quos, tempora assumenda ducimus accusantium non autem! Dolores qui delectus nulla aspernatur repudiandae.</p>
+        <a href="" class="small button radius">Detalles ...</a>
+        </section>
+      </section>
+      <hr>
+      <section class="row" data-equalizer>
+        <section class="small-12 columns tabs"><h2>Apellido y Nombre</h2></section>
+        <section class="small-3 columns tabs" data-equalizer-watch>
+        Lorem ipsum
+        </section>
+        <section class="small-9 columns tabs float-right tabs" data-equalizer-watch>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, veritatis labore atque eum similique nesciunt quam maxime quos, tempora assumenda ducimus accusantium non autem! Dolores qui delectus nulla aspernatur repudiandae.</p>
+        <a href="" class="small button radius">Detalles ...</a>
+        </section>
+        <hr>
+        <section class="row" data-equalizer>
+          <section class="small-12 columns tabs"><h2>Apellido y Nombre</h2></section>
+          <section class="small-3 columns tabs" data-equalizer-watch>
+          Lorem ipsum
+          </section>
+          <section class="small-9 columns tabs float-right tabs" data-equalizer-watch>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, veritatis labore atque eum similique nesciunt quam maxime quos, tempora assumenda ducimus accusantium non autem! Dolores qui delectus nulla aspernatur repudiandae.</p>
+          <a href="" class="small button radius">Detalles ...</a>
+          </section>
+          <hr>
+          <section class="row" data-equalizer>
+            <section class="small-12 columns tabs"><h2>Apellido y Nombre</h2></section>
+            <section class="small-3 columns tabs" data-equalizer-watch>
+            Lorem ipsum
+            </section>
+            <section class="small-9 columns tabs float-right tabs" data-equalizer-watch>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, veritatis labore atque eum similique nesciunt quam maxime quos, tempora assumenda ducimus accusantium non autem! Dolores qui delectus nulla aspernatur repudiandae.</p>
+            <a href="" class="small button radius">Detalles ...</a>
+            </section>
+      </section>
+  </div>
 </div>
 
-<div class="top-bar" id="example-menu">
-  <div class="top-bar-left">
-    <ul class="dropdown menu" data-dropdown-menu>
-      <li class="menu-text">Site Title</li>
-      <li>
-        <a href="#">One</a>
-        <ul class="menu vertical">
-          <li><a href="#">One</a></li>
-          <li><a href="#">Two</a></li>
-          <li><a href="#">Three</a></li>
-        </ul>
-      </li>
-      <li><a href="#">Two</a></li>
-      <li><a href="#">Three</a></li>
-    </ul>
-  </div>
-  <div class="top-bar-right">
-    <ul class="menu">
-      <li><input type="search" placeholder="Search"></li>
-      <li><button type="button" class="button">Search</button></li>
-    </ul>
-  </div>
-</div>
-  <section class="row">
-    <section class="small-12 columns tabs"><h2>Apellido y Nombre</h2></section>
-    <section class="small-3 columns tabs">
-    <p>Lorem ipsum</p>
-    </section>
-    <section class="small-9 columns tabs float-right">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, veritatis labore atque eum similique nesciunt quam maxime quos, tempora assumenda ducimus accusantium non autem! Dolores qui delectus nulla aspernatur repudiandae.</p>
-    <a href="" class="small button radius">Detalles ...</a>
-    </section>
-  </section>
-  <section class="row" data-equalizer>
-    <section class="small-12 columns tabs"><h2>Apellido y Nombre</h2></section>
-    <section class="small-3 columns tabs" data-equalizer-watch>
-    Lorem ipsum
-    </section>
-    <section class="small-9 columns tabs float-right tabs" data-equalizer-watch>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, veritatis labore atque eum similique nesciunt quam maxime quos, tempora assumenda ducimus accusantium non autem! Dolores qui delectus nulla aspernatur repudiandae.
-    </section>
-  </section>
+<footer class="">
+  <p></p>
+</footer>
+
+
 
   <script src="js/vendor/jquery.js"></script>
   <script src="js/vendor/foundation.min.js"></script>
